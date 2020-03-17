@@ -9,6 +9,7 @@ import warnings
 import weakref
 
 from .actions import Action
+from .appmap_printer import AppmapPrinter
 from .actions import CallPrinter
 from .actions import CodePrinter
 from .actions import Debugger
@@ -46,6 +47,7 @@ except ImportError:
 
 __all__ = (
     'And',
+    'AppmapPrinter',
     'CallPrinter',
     'CodePrinter',
     'Debugger',
